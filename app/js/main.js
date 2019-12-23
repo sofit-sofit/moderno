@@ -45,8 +45,13 @@ $('.product-one__tabs .tab, .settings__tabs.tab').on('click', function(event) {
     });
 // ----------end tubs------------
 
+//----------form style-----------
 
- 
+$('input[type="file"], select').styler();
+
+//---------end form style---------
+
+
 $('.menu__btn').on('click', function(){
     $('.menu__list').slideToggle();
 });
